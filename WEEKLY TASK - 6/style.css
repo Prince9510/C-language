@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    background: linear-gradient(to right ,#4eadff,#62dcff);
+    height: 700px;
+    width: 100%;
+}
+header{
+    height: 70px;
+    width: 100%;
+}
+header .row,.col{
+    height: inherit;
+}
+header a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    margin-inline: 10px;
+}
+header button{
+    height: 50px;
+    width: 120px;
+    font-size: 13px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-right: 20px;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+header button:hover{
+    background-color: white;
+    color: black;
+
+}
+header i{
+    font-size: 25px;
+    color: white;
+}
+
+#navbarNavAltMarkup{
+    background-color: black;
+}
+
+#navbarNavAltMarkup a{
+    color: white;
+    text-transform: capitalize;
+    border-bottom: 2px solid #ededed33;
+}
+#conatiner-1{
+    margin-top: 100px;
+}
+.banner{
+    width: 70%;
+    height: 300px;
+
+}
+.banner h2{
+    font-size: 48px;
+    color: white;
+font-family: "Heebo", sans-serif;
+    font-weight: 600;
+}
+
+.banner p{
+    font-size: 14px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.banner button{
+    height: 45px;
+    width: 134px;
+    /* background-color: red; */
+}
+#banner-btn-1{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+#banner-btn-2{
+    background-color: white;
+    border: 1px solid white;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+#banner-btn-1:hover{
+    background-color: white;
+    color: black;
+    
+}
+#banner-btn-2:hover{
+    background-color: transparent;
+    color: white;
+
+
+}
+.inner-card-outer{
+    /* background-color: black; */
+    padding-bottom: 50px;
+}
+.inner-card{
+    height: inherit;
+}
+.main-card{
+    /* background-color: aqua; */
+    height: inherit;
+}
+.main-card h2{
+    font-size: 36px;
+font-family: "Heebo", sans-serif;
+font-weight: 700;
+text-align: center;
+}
+.main-card p{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    color: #777777;
+    text-align: center;
+    padding-top: 20px;
+}
+.inner-card{
+    /* background-color: aqua; */
+    width: 70%;
+    /* height: 300px; */
+
+}
+.squre-box{
+    height: 80px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  80px;
+    background-color: #f9f9ff;
+}
+.squre-box i{
+    font-size: 30px;
+}
+
+
+.inner-card h4{
+    font-size: 20px;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.inner-card p{
+    color: #777777;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.made-life{
+    height: inherit;
+    background-color: #edf6ff;
+}
+.inner-made-life{
+    /* background-color: red; */
+    height: inherit;
+    width: 70%;
+}
+
+
+.inner-made-life .row .col-6 .inner-made-box{
+    height: 50px;
+    border-radius: 3px;
+}
+#active-1{
+    background: linear-gradient(to right ,#35a1ff,#62dcff);
+    box-shadow: rgb(50, 50, 93) 0px 50px 100px -20px, rgb(0, 0, 0) 0px 30px 60px -30px;
+    color: white;
+
+}
+.inner-made-box{
+    cursor:pointer;
+    font-weight: 500;
+    color: black;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+.inner-made-life h3{
+    font-size: 36px;
+font-family: "Heebo", sans-serif;
+color: #222;
+font-weight: 600;
+}
+.inner-made-life h6{
+    font-size: 16px;
+font-family: "Heebo", sans-serif;
+color: #222;
+padding-top: 15px;
+
+}
+.inner-made-life p{
+    color: #777777;
+    font-size: 14px;
+font-family: "Roboto", sans-serif;
+
+}
+.inner-made-life button{
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    font-family: "Roboto",sans-serif;
+    width: 145px;
+    background: linear-gradient(to right ,#35a1ff,#62dcff);
+
+}
+.inner-made-life button:active{
+    background: linear-gradient(to right ,#62dcff , #35a1ff);
+
+}
+
+.screen-area{
+    height: inherit;
+    /* background-color: red; */
+}
+.screen-area h2{
+    font-size: 36px;
+font-family: "Heebo", sans-serif;
+color: #222;
+font-weight: 600;
+text-align: center;
+}
+
+.screen-area p{
+    color: #777777;
+    font-size: 13px;
+font-family: "Roboto", sans-serif;
+text-align: center;
+}
+
+.main-plan{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.inner-plan{
+    width: 70%;
+    height: inherit;
+    /* background-color: aqua; */
+}
+
+.inner-plan h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+font-family: "Heebo", sans-serif;
+color: #222;
+}
+.inner-plan p{
+    color: #777777;
+    padding-top: 5px;
+    font-size: 13px;
+font-family: "Roboto", sans-serif;
+text-align: center;
+}
+.inner-plan-box{
+    /* border: 2px solid red; */
+    border-radius: 3px;
+}
+
+.real-box{
+    height: 90px;
+    width: 100%;
+    background-color: #edf6ff;
+}
+
+.real-box h4{
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+font-family: "Heebo", sans-serif;
+
+}
+.inner-plan-box a{
+    color: #777777;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    display: block;
+    padding-block: 10px;
+    text-decoration: none;
+}
+.price{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 180px;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #edf6ff;
+}
+.price h3{
+    font-size: 72px;
+    color: #222;
+font-family: "Heebo", sans-serif;
+
+}
+
+
+.price h3 sub{
+    font-size: 24px;
+    color: #777;
+font-family: "Roboto", sans-serif;
+
+}
+.price button{
+    width: 140px;
+    height: 45px;
+    color: white;
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+border: 0;
+border-radius: 5px;
+    background: linear-gradient(to right ,#35a1ff,#62dcff);
+
+}
+
+.inner-plan-box:hover .real-box{
+    background: linear-gradient(to right ,#35a1ff,#62dcff);
+    
+}
+.inner-plan-box:hover .price{
+    background: linear-gradient(to right ,#35a1ff,#62dcff);
+
+}
+.inner-plan-box:hover .price-button{
+    background: white;
+    color: black;
+    
+}
+.bor{
+    border: 1px solid #eeeeee;
+}
+
+
+.impress-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right ,#4eadff,#62dcff);
+    height: inherit;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.impress-area h2{
+    color: white;
+    font-size: 36px;
+    font-family: "Heebo", sans-serif;
+
+}
+.impress-area p{
+    color: white;
+    padding-top: 20px;
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+}
+.impress-area button{
+    height: 44px;
+    width: 170px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+}
+
+
+.impress-area button:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.inner-footer{
+    width: 70%;
+    height: inherit;
+}
+
+.inner-footer h3{
+    font-size: 20px;
+    color: white;
+font-family: "Heebo", sans-serif;
+
+}
+
+footer p{
+    font-size: 14px;
+    color: #777;
+font-family: "Roboto", sans-serif;
+    padding-top: 20px;
+}
+
+.input-box{
+    height: 40px;
+    display: flex;
+    width: 100%;
+
+}
+.input-box input{
+    height: inherit;
+    padding-left: 10px;
+    width: 90%;
+    border: 0;
+}
+.input-box button{
+    width: 10%;
+    height: inherit;
+    background: linear-gradient(to right ,#35a1ff,#62dcff);
+    border: 0;
+}
+.input-box button i{
+    color: white;
+    font-size: 20px;
+}
+.icons{
+    width: 100%;
+    height: 50px;
+}
+.icons i{
+    color: #cccccc;
+    font-size: 14px;
+    margin-inline: 5px;
+}
+
+
+
+
+
+@media (max-width : 992px) {
+    header{
+        background-color: black;
+    }
+    .banner h2{
+        font-size: 36px;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width : 576px) {
+    .banner h2{
+        font-size: 28px;
+    }
+    
+}
