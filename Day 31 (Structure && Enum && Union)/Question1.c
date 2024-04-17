@@ -3,7 +3,7 @@
  struct student
     {
         int id;
-        int name[100];
+        char name[100];
         int age;
         char course[100];
         char city[100];
